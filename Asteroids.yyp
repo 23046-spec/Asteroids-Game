@@ -21,9 +21,11 @@
   "resources":[
     {"id":{"name":"ObjAsteroid","path":"objects/ObjAsteroid/ObjAsteroid.yy",},},
     {"id":{"name":"ObjBullet","path":"objects/ObjBullet/ObjBullet.yy",},},
+    {"id":{"name":"ObjDebris","path":"objects/ObjDebris/ObjDebris.yy",},},
     {"id":{"name":"ObjShip","path":"objects/ObjShip/ObjShip.yy",},},
     {"id":{"name":"RmGame","path":"rooms/RmGame/RmGame.yy",},},
     {"id":{"name":"SprBullet","path":"sprites/SprBullet/SprBullet.yy",},},
+    {"id":{"name":"SprDebris","path":"sprites/SprDebris/SprDebris.yy",},},
     {"id":{"name":"SprLaAsteroid","path":"sprites/SprLaAsteroid/SprLaAsteroid.yy",},},
     {"id":{"name":"SprMeAsteroid","path":"sprites/SprMeAsteroid/SprMeAsteroid.yy",},},
     {"id":{"name":"SprShip","path":"sprites/SprShip/SprShip.yy",},},
