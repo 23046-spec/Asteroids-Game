@@ -20,6 +20,7 @@
   "name":"Asteroids",
   "resources":[
     {"id":{"name":"ObjAsteroid","path":"objects/ObjAsteroid/ObjAsteroid.yy",},},
+    {"id":{"name":"ObjBullet","path":"objects/ObjBullet/ObjBullet.yy",},},
     {"id":{"name":"ObjShip","path":"objects/ObjShip/ObjShip.yy",},},
     {"id":{"name":"RmGame","path":"rooms/RmGame/RmGame.yy",},},
     {"id":{"name":"SprBullet","path":"sprites/SprBullet/SprBullet.yy",},},
