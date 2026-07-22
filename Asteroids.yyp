@@ -29,6 +29,7 @@
     {"id":{"name":"RmGameOver","path":"rooms/RmGameOver/RmGameOver.yy",},},
     {"id":{"name":"RmStart","path":"rooms/RmStart/RmStart.yy",},},
     {"id":{"name":"RmWin","path":"rooms/RmWin/RmWin.yy",},},
+    {"id":{"name":"SprBg","path":"sprites/SprBg/SprBg.yy",},},
     {"id":{"name":"SprBullet","path":"sprites/SprBullet/SprBullet.yy",},},
     {"id":{"name":"SprDebris","path":"sprites/SprDebris/SprDebris.yy",},},
     {"id":{"name":"SprLaAsteroid","path":"sprites/SprLaAsteroid/SprLaAsteroid.yy",},},
