@@ -19,11 +19,16 @@
   },
   "name":"Asteroids",
   "resources":[
+    {"id":{"name":"FontText","path":"fonts/FontText/FontText.yy",},},
     {"id":{"name":"ObjAsteroid","path":"objects/ObjAsteroid/ObjAsteroid.yy",},},
     {"id":{"name":"ObjBullet","path":"objects/ObjBullet/ObjBullet.yy",},},
     {"id":{"name":"ObjDebris","path":"objects/ObjDebris/ObjDebris.yy",},},
+    {"id":{"name":"ObjGame","path":"objects/ObjGame/ObjGame.yy",},},
     {"id":{"name":"ObjShip","path":"objects/ObjShip/ObjShip.yy",},},
     {"id":{"name":"RmGame","path":"rooms/RmGame/RmGame.yy",},},
+    {"id":{"name":"RmGameOver","path":"rooms/RmGameOver/RmGameOver.yy",},},
+    {"id":{"name":"RmStart","path":"rooms/RmStart/RmStart.yy",},},
+    {"id":{"name":"RmWin","path":"rooms/RmWin/RmWin.yy",},},
     {"id":{"name":"SprBullet","path":"sprites/SprBullet/SprBullet.yy",},},
     {"id":{"name":"SprDebris","path":"sprites/SprDebris/SprDebris.yy",},},
     {"id":{"name":"SprLaAsteroid","path":"sprites/SprLaAsteroid/SprLaAsteroid.yy",},},
@@ -34,7 +39,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"RmStart","path":"rooms/RmStart/RmStart.yy",},},
     {"roomId":{"name":"RmGame","path":"rooms/RmGame/RmGame.yy",},},
+    {"roomId":{"name":"RmWin","path":"rooms/RmWin/RmWin.yy",},},
+    {"roomId":{"name":"RmGameOver","path":"rooms/RmGameOver/RmGameOver.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
