@@ -22,6 +22,7 @@
     {"id":{"name":"FontText","path":"fonts/FontText/FontText.yy",},},
     {"id":{"name":"ObjAsteroid","path":"objects/ObjAsteroid/ObjAsteroid.yy",},},
     {"id":{"name":"ObjBullet","path":"objects/ObjBullet/ObjBullet.yy",},},
+    {"id":{"name":"ObjCam","path":"objects/ObjCam/ObjCam.yy",},},
     {"id":{"name":"ObjDebris","path":"objects/ObjDebris/ObjDebris.yy",},},
     {"id":{"name":"ObjGame","path":"objects/ObjGame/ObjGame.yy",},},
     {"id":{"name":"ObjShip","path":"objects/ObjShip/ObjShip.yy",},},
