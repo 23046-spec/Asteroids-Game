@@ -1,0 +1,23 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"FontText","order":12,"path":"fonts/FontText/FontText.yy",},
+    {"name":"ObjAsteroid","order":6,"path":"objects/ObjAsteroid/ObjAsteroid.yy",},
+    {"name":"ObjBullet","order":8,"path":"objects/ObjBullet/ObjBullet.yy",},
+    {"name":"ObjCam","order":17,"path":"objects/ObjCam/ObjCam.yy",},
+    {"name":"ObjDebris","order":10,"path":"objects/ObjDebris/ObjDebris.yy",},
+    {"name":"ObjGame","order":11,"path":"objects/ObjGame/ObjGame.yy",},
+    {"name":"ObjShip","order":5,"path":"objects/ObjShip/ObjShip.yy",},
+    {"name":"RmGameOver","order":15,"path":"rooms/RmGameOver/RmGameOver.yy",},
+    {"name":"RmStart","order":13,"path":"rooms/RmStart/RmStart.yy",},
+    {"name":"RmWin","order":14,"path":"rooms/RmWin/RmWin.yy",},
+    {"name":"spawn_off_camera","order":18,"path":"scripts/spawn_off_camera/spawn_off_camera.yy",},
+    {"name":"SprBg","order":16,"path":"sprites/SprBg/SprBg.yy",},
+    {"name":"SprBullet","order":7,"path":"sprites/SprBullet/SprBullet.yy",},
+    {"name":"SprDebris","order":9,"path":"sprites/SprDebris/SprDebris.yy",},
+    {"name":"SprLaAsteroid","order":4,"path":"sprites/SprLaAsteroid/SprLaAsteroid.yy",},
+    {"name":"SprMeAsteroid","order":3,"path":"sprites/SprMeAsteroid/SprMeAsteroid.yy",},
+    {"name":"SprShip","order":1,"path":"sprites/SprShip/SprShip.yy",},
+    {"name":"SprSmAsteroid","order":2,"path":"sprites/SprSmAsteroid/SprSmAsteroid.yy",},
+  ],
+}

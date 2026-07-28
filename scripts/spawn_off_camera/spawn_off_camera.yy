@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"spawn_off_camera",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"spawn_off_camera",
+  "parent":{
+    "name":"Asteroids",
+    "path":"Asteroids.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
