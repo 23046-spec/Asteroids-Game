@@ -1,9 +1,13 @@
 lives -= 1;
 
-instance_destroy();
+with(ObjGame)
+{
+	alarm[1] = room_speed;
+}
 
-instance_create_layer(room_width/2, room_height/2, "Instances", ObjShip);
+instance_destroy();
 
 repeat(10){
 	instance_create_layer(x,y,"Instances",ObjDebris);	
 }
+
