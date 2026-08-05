@@ -10,8 +10,8 @@
   "name":"ObjCam",
   "overriddenProperties":[],
   "parent":{
-    "name":"Asteroids",
-    "path":"Asteroids.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":true,

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"spawn_off_camera",
   "parent":{
-    "name":"Asteroids",
-    "path":"Asteroids.yyp",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

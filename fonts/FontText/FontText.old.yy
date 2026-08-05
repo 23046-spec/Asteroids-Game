@@ -222,8 +222,8 @@
   "maintainGms1Font":false,
   "name":"FontText",
   "parent":{
-    "name":"Fonts",
-    "path":"folders/Fonts.yy",
+    "name":"Asteroids",
+    "path":"Asteroids.yyp",
   },
   "pointRounding":0,
   "ranges":[

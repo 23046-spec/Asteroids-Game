@@ -13,8 +13,8 @@
   ],
   "name":"RmGameOver",
   "parent":{
-    "name":"Asteroids",
-    "path":"Asteroids.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

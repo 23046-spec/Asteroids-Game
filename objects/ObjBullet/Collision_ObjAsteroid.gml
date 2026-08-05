@@ -16,7 +16,7 @@ with(other){
 		}
 		score += 10
 	} else if(sprite_index == SprSmAsteroid){
-		score += 15
+		score += 20
 	}
 	
 	repeat(10){
