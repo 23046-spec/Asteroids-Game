@@ -21,5 +21,9 @@
     {"name":"SprMeAsteroid","order":4,"path":"sprites/SprMeAsteroid/SprMeAsteroid.yy",},
     {"name":"SprShip","order":5,"path":"sprites/SprShip/SprShip.yy",},
     {"name":"SprSmAsteroid","order":6,"path":"sprites/SprSmAsteroid/SprSmAsteroid.yy",},
+    {"name":"SprStarfield0","order":7,"path":"sprites/SprStarfield0/SprStarfield0.yy",},
+    {"name":"SprStarfield1","order":8,"path":"sprites/SprStarfield1/SprStarfield1.yy",},
+    {"name":"SprStarfield2","order":9,"path":"sprites/SprStarfield2/SprStarfield2.yy",},
+    {"name":"SprStarGradient","order":10,"path":"sprites/SprStarGradient/SprStarGradient.yy",},
   ],
 }
