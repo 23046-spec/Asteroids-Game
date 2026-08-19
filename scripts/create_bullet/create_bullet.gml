@@ -1,7 +1,6 @@
 ///@description create_bullet
 
-function create_bullet(_dir, _spd, _fac){
-	var _creator = id;
+function create_bullet(_dir, _spd, _fac, _creator){
 	var inst = instance_create_layer(x,y, "Instances", ObjBullet);
 
 	with(inst){
