@@ -1,13 +1,13 @@
 ///@description create_bullet
 
-function create_bullet(dir, spd, fac){
-
+function create_bullet(_dir, _spd, _fac){
+	var _creator = id;
 	var inst = instance_create_layer(x,y, "Instances", ObjBullet);
 
 	with(inst){
-		direction = dir;
-		speed = spd;
-		faction = fac;
+		direction = _dir;
+		speed = _spd;
+		faction = _fac;
 		creator = _creator;
 		
 		if(faction == factions.ally) image_blend = c_aqua;

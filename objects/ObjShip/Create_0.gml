@@ -1,3 +1,3 @@
 event_inherited();
 
-bulletSpd, = 6;
+bulletSpeed = 6;
