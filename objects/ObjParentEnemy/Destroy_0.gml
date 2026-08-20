@@ -1,0 +1,10 @@
+
+repeat(10){
+	instance_create_layer(x,y,"Instances",ObjDebris);
+}
+
+switch(object_index){
+	case ObjAlien: score += 10; break;	
+	case ObjUfo: score += 20; break;	
+	case ObjBrute: score += 15; break;	
+}

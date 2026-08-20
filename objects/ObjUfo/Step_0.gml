@@ -1,0 +1,28 @@
+
+//if player exists
+if(!instance_exists(ObjShip)) exit;
+
+//If player is inside range
+if(point_distance(x,y, ObjShip.x,ObjShip.y) < 250){
+	//Turn to look at player ship
+	var new_angle = point_direction(x,y, ObjShip.x, ObjShip.y);
+	new_angle = image_angle - angle_difference(image_angle,new_angle);
+	image_angle = lerp(image_angle, new_angle, 0.1);
+	direction = image_angle;
+	
+	if(point_distance(x,y, ObjShip.x,ObjShip.y) < 150){
+		speed -=0.05;
+	} else {
+		speed += 0.02;
+	}
+	
+	//fire bullet
+	bulletCounter++;
+	if(bulletCounter >= 50){
+		create_bullet(image_angle,8,faction,id);
+		bulletCounter = 0;
+	}
+	
+} else { //otherwise, no change
+	speed = lerp(speed,originalSpeed,0.1);
+}
