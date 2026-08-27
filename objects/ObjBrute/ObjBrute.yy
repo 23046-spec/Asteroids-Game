@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprBrute",
-    "path":"sprites/SprBrute/SprBrute.yy",
+    "name":"SprBruteStrip3",
+    "path":"sprites/SprBruteStrip3/SprBruteStrip3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
