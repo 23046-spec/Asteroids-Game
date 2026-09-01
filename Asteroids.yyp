@@ -41,6 +41,7 @@
     {"id":{"name":"ObjFactionNeutral","path":"objects/ObjFactionNeutral/ObjFactionNeutral.yy",},},
     {"id":{"name":"ObjGame","path":"objects/ObjGame/ObjGame.yy",},},
     {"id":{"name":"ObjParentEnemy","path":"objects/ObjParentEnemy/ObjParentEnemy.yy",},},
+    {"id":{"name":"ObjPowerup","path":"objects/ObjPowerup/ObjPowerup.yy",},},
     {"id":{"name":"ObjShip","path":"objects/ObjShip/ObjShip.yy",},},
     {"id":{"name":"ObjUfo","path":"objects/ObjUfo/ObjUfo.yy",},},
     {"id":{"name":"RmGame","path":"rooms/RmGame/RmGame.yy",},},
