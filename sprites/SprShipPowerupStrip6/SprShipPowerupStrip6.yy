@@ -25,6 +25,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"6fa2508f-262e-4985-85c1-3d748f45cd40","blendMode":0,"displayName":"default","isLocked":false,"name":"6fa2508f-262e-4985-85c1-3d748f45cd40","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e58eea84-65df-4e00-a35f-c28332f44e3a","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"e58eea84-65df-4e00-a35f-c28332f44e3a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"SprShipPowerupStrip6",
   "nineSlice":null,
