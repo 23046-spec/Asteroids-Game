@@ -26,6 +26,7 @@
     {"name":"RmStart","order":3,"path":"rooms/RmStart/RmStart.yy",},
     {"name":"RmWin","order":2,"path":"rooms/RmWin/RmWin.yy",},
     {"name":"create_bullet","order":1,"path":"scripts/create_bullet/create_bullet.yy",},
+    {"name":"initialise_bullet","order":2,"path":"scripts/initialise_bullet/initialise_bullet.yy",},
     {"name":"SprAlien","order":11,"path":"sprites/SprAlien/SprAlien.yy",},
     {"name":"SprBruteStrip3","order":13,"path":"sprites/SprBruteStrip3/SprBruteStrip3.yy",},
     {"name":"SprBullet","order":1,"path":"sprites/SprBullet/SprBullet.yy",},

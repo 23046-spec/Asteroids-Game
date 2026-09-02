@@ -11,7 +11,7 @@ if(keyboard_check(vk_up)){
 }
 
 if(keyboard_check_pressed(vk_space)){
-	create_bullet(image_angle, bulletSpeed, faction,id);
+	create_bullet(image_angle, bulletSpeed, faction, id, guns);
 }
 
 
