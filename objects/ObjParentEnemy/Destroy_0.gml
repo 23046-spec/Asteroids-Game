@@ -8,3 +8,7 @@ switch(object_index){
 	case ObjUfo: score += 20; break;	
 	case ObjBrute: score += 15; break;	
 }
+
+if(irandom_range(0,4) == 0){
+	instance_create_layer(x,y, "Instances", ObjPowerup);	
+}

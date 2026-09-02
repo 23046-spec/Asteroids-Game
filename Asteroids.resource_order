@@ -19,6 +19,7 @@
     {"name":"ObjFactionEnemy","order":4,"path":"objects/ObjFactionEnemy/ObjFactionEnemy.yy",},
     {"name":"ObjFactionNeutral","order":1,"path":"objects/ObjFactionNeutral/ObjFactionNeutral.yy",},
     {"name":"ObjGame","order":3,"path":"objects/ObjGame/ObjGame.yy",},
+    {"name":"ObjLaser","order":15,"path":"objects/ObjLaser/ObjLaser.yy",},
     {"name":"ObjParentEnemy","order":3,"path":"objects/ObjParentEnemy/ObjParentEnemy.yy",},
     {"name":"ObjPowerup","order":14,"path":"objects/ObjPowerup/ObjPowerup.yy",},
     {"name":"ObjUfo","order":2,"path":"objects/ObjUfo/ObjUfo.yy",},
