@@ -5,6 +5,7 @@ with(ObjGame)
 	alarm[1] = room_speed;
 }
 
-repeat(10){
-	instance_create_layer(x,y,"Instances",ObjDebris);	
+var _xx = x, _yy = y;
+with(ObjParticles){
+	part_particles_create(partSys,_xx,_yy, partTypeShipDebris, 10);
 }

@@ -1,3 +1,4 @@
+event_inherited();
 
 //if player exists
 if(!instance_exists(ObjShip)) exit;
