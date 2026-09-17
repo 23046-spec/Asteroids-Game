@@ -4,6 +4,10 @@ switch(room){
 		draw_text(20,40, "LIVES: "+string(lives));
 		break;
 		
+	case RmBoss:
+		draw_text(20,20, "Lives: "+string(lives));
+		break;
+		
 	case RmStart:
 	draw_set_halign(fa_center);
 		var c = c_yellow;
@@ -19,7 +23,7 @@ UP: Move
 LEFT/RIGHT: Change Direction
 Space: Shoot
 
->> PRESS ENTER TO START <<
+>> PRESS SHIFT TO START <<
 "
 		);
 		draw_set_halign(fa_left);
@@ -34,7 +38,8 @@ Space: Shoot
 		);
 		draw_text(
 			room_width/2, 300,
-			"PRESS ENTER TO RESTART"
+			@"PRESS ENTER TO FIGHT THE BOSS
+PRESS SHIFT TO RESTART"
 		);
 		draw_set_halign(fa_left);
 		break;
@@ -52,7 +57,7 @@ Space: Shoot
 		);
 		draw_text(
 			room_width/2, 250,
-			"PRESS ENTER TO RESTART"
+			"PRESS SHIFT TO RESTART"
 		);
 		draw_set_halign(fa_left);
 		break;
