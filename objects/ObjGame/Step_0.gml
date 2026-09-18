@@ -12,7 +12,7 @@ if(keyboard_check_pressed(vk_shift)){
 }
 
 if(room == RmGame){
-	if(score >= 20){
+	if(score >= 10){
 		room_goto(RmWin);
 	}
 

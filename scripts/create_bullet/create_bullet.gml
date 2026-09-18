@@ -60,6 +60,7 @@ function create_bullet(_dir, _spd, _fac, _creator, _gun_type){
 			var inst = instance_create_layer(x,y, "Instances", ObjBullet);
 			initialise_bullet(_dir, _spd, _fac, id, inst);
 			break;
+
 	}
 
 

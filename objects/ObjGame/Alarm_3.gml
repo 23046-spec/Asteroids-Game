@@ -1,0 +1,1 @@
+instance_create_layer(spawn_x,spawn_y,"Instances",ObjShip)

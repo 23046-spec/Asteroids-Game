@@ -1,7 +1,7 @@
 event_inherited();
 
 // Automatically calculates the correct frame (0-4) as HP drops
-image_index = clamp(4 - floor((HP - 1) / 2), 0, 4);
+image_index = clamp(4 - floor((HP - 1) / 1), 0, 4);
 
 //if player exists
 if(!instance_exists(ObjShip)) exit;
@@ -16,7 +16,11 @@ if(point_distance(x,y, ObjShip.x,ObjShip.y) < 300){
 	//fire bullet
 	bulletCounter++;
 	if(bulletCounter >= 60){
-		create_bullet(image_angle,4,faction,id);
+		if(image_index <= 3){
+			create_bullet(image_angle,10,faction,id,powerups.four_bullets);
+		} else {
+			create_bullet(image_angle,15,faction,id,powerups.star_bullets);
+		}
 		bulletCounter = 0;
 	}
 	

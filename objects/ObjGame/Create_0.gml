@@ -1,6 +1,7 @@
 score = 0;
 
-
+spawn_x = 750;
+spawn_y = 900;
 draw_set_font(FontText);
 
 randomize();

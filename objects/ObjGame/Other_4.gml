@@ -9,11 +9,11 @@ if(room == RmGame){
 }
 
 if(room == RmBoss){
-	spawn_off_camera(ObjAsteroid, 20);
+	//spawn_off_camera(ObjAsteroid, 15);
 	
-	spawn_off_camera(ObjAlien, 3);
-	spawn_off_camera(ObjUfo, 2);
-	spawn_off_camera(ObjBrute, 1);
+	//spawn_off_camera(ObjAlien, 3);
+	//spawn_off_camera(ObjUfo, 2);
+	//spawn_off_camera(ObjBrute, 1);
 	
 	alarm[0] = 60;
 }

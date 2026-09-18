@@ -11,6 +11,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"ObjBoss","order":5,"path":"objects/ObjBoss/ObjBoss.yy",},
+    {"name":"ObjBossBullet","order":11,"path":"objects/ObjBossBullet/ObjBossBullet.yy",},
     {"name":"ObjBrute","order":1,"path":"objects/ObjBrute/ObjBrute.yy",},
     {"name":"ObjCam","order":1,"path":"objects/ObjCam/ObjCam.yy",},
     {"name":"ObjFaction","order":7,"path":"objects/ObjFaction/ObjFaction.yy",},
@@ -31,6 +32,7 @@
     {"name":"initialise_bullet","order":2,"path":"scripts/initialise_bullet/initialise_bullet.yy",},
     {"name":"SprAlien","order":11,"path":"sprites/SprAlien/SprAlien.yy",},
     {"name":"SprAsteroidDebrisStrip4","order":18,"path":"sprites/SprAsteroidDebrisStrip4/SprAsteroidDebrisStrip4.yy",},
+    {"name":"SprBossBullet","order":20,"path":"sprites/SprBossBullet/SprBossBullet.yy",},
     {"name":"SprBossStrip5","order":19,"path":"sprites/SprBossStrip5/SprBossStrip5.yy",},
     {"name":"SprBruteStrip3","order":13,"path":"sprites/SprBruteStrip3/SprBruteStrip3.yy",},
     {"name":"SprBullet","order":1,"path":"sprites/SprBullet/SprBullet.yy",},
