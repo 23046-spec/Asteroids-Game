@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprPowerupStrip6",
-    "path":"sprites/SprPowerupStrip6/SprPowerupStrip6.yy",
+    "name":"SprPowerupStrip8",
+    "path":"sprites/SprPowerupStrip8/SprPowerupStrip8.yy",
   },
   "spriteMaskId":null,
   "visible":true,

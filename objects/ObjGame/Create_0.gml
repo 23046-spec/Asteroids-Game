@@ -18,5 +18,7 @@ enum powerups {
 	four_bullets,
 	star_bullets,
 	laser_bullets,
-	invincible_ship
+	invincible_ship,
+	additional_ship,
+	additional_life
 }
