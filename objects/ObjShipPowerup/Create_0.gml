@@ -2,6 +2,6 @@ event_inherited();
 
 bulletSpeed = 6;
 guns = -1;
-invincible = false;
+invincible = true;
 
 exhaustCounter = 0;

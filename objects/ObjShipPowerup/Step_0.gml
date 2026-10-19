@@ -26,3 +26,12 @@ if(keyboard_check(vk_up)){
 if(keyboard_check_pressed(vk_space)){
 	create_bullet(image_angle, bulletSpeed, faction, id, guns);
 }
+
+
+if(!point_in_rectangle(x,y,
+	global.cameraX, global.cameraY,
+	global.cameraX + global.cameraWidth,
+	global.cameraY + global.cameraHeight)
+){
+	instance_destroy();	
+}

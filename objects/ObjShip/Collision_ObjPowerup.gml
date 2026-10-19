@@ -1,4 +1,4 @@
-
+audio_play_sound(AsteroidsPowerup, 1, false);
 with(other){
 	var powerup_type = image_index;
 	instance_destroy();

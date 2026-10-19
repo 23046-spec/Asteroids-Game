@@ -25,6 +25,7 @@ if(keyboard_check(vk_up)){
 
 if(keyboard_check_pressed(vk_space)){
 	create_bullet(image_angle, bulletSpeed, faction, id, guns);
+	audio_play_sound(AsteroidsShootSound, 1 ,false);
 }
 
 

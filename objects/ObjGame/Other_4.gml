@@ -1,4 +1,15 @@
+if(room == RmStart){
+	audio_play_sound(AsteroidsStartMusic, 2, true);
+	lives = 3
+}
 if(room == RmGame){
+	if(audio_is_playing(AsteroidsStartMusic)){
+		audio_stop_sound(AsteroidsStartMusic);
+		}
+	if(audio_is_playing(AsteroidsMusic)){
+		audio_stop_sound(AsteroidsMusic);
+		}
+	audio_play_sound(AsteroidsMusic, 2, true);
 	spawn_off_camera(ObjAsteroid, 40);
 	
 	spawn_off_camera(ObjAlien, 6);
@@ -7,8 +18,8 @@ if(room == RmGame){
 	
 	alarm[0] = 60;
 }
-
 if(room == RmBoss){
+	audio_play_sound(AsteroidsMusic, 2, true);
 	spawn_off_camera(ObjAsteroid, 15);
 	
 	spawn_off_camera(ObjAlien, 3);

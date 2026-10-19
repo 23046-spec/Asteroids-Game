@@ -1,5 +1,5 @@
 lives -= 1;
-
+audio_play_sound(AsteroidsDamage, 1 ,false);
 var _xx = x, _yy = y;
 with(ObjGame)
 {

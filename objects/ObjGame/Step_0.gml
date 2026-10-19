@@ -11,13 +11,23 @@ if(keyboard_check_pressed(vk_shift)){
 	}
 }
 
+
+
 if(room == RmGame){
-	if(score >= 10){
+	if(score >= 100){
 		room_goto(RmWin);
+		if(audio_is_playing(AsteroidsMusic)){
+		audio_stop_sound(AsteroidsMusic);
+		}
+		audio_play_sound(AsteroidsWin, 1, false);
 	}
 
 	if(lives <= 0){
 		room_goto(RmGameOver);
+		if(audio_is_playing(AsteroidsMusic)){
+		audio_stop_sound(AsteroidsMusic);
+		}
+		audio_play_sound(AsteroidsLoseMusic, 1, false);
 	}
 }
 
@@ -28,8 +38,14 @@ if(room == RmWin){
 }
 
 if(room == RmBoss){
+		audio_stop_sound(AsteroidsWin);
 		if(lives <=0){
 			room_goto(RmGameOver);
+			audio_play_sound(AsteroidsLoseMusic, 2, false);
+			audio_stop_sound(AsteroidsMusic);
+			if(instance_exists(ObjShip)){
+				instance_destroy(ObjShip)
+			}
 		}
 	
 		if(!instance_exists(ObjBoss)){
@@ -48,6 +64,10 @@ if(room == RmBoss){
 				}
 				global.cameraShake = 50;
 				alarm[2] = 200;
+				
+				room_goto(RmWin);
+				audio_play_sound(AsteroidsWin, 3, false);
+				audio_stop_sound(AsteroidsMusic);
 		}
 	}
 }	

@@ -3,7 +3,7 @@
 //Camera
 global.cameraX = 0;
 global.cameraY = 0;
-target = ObjShip;
+target = ObjShip
 
 global.cameraWidth = 500;
 global.cameraHeight = 500;

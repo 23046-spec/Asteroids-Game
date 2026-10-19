@@ -22,6 +22,20 @@ function create_bullet(_dir, _spd, _fac, _creator, _gun_type){
 			break;
 			
 		case powerups.four_bullets:
+		if(_fac == factions.enemy){
+			var _sep = 7, bullet_angle;
+			
+			var i = 0; repeat(4){
+				bullet_angle = _dir + (i * 90);
+				var inst = instance_create_layer(
+					x+lengthdir_x(_sep,_dir),
+					y+lengthdir_y(_sep,_dir),
+					"Instances", ObjBossBullet
+				);
+				initialise_bullet(bullet_angle, _spd, _fac, id, inst);
+				i++;
+			}
+		} else {
 			var _sep = 7, bullet_angle;
 			
 			var i = 0; repeat(4){
@@ -34,10 +48,25 @@ function create_bullet(_dir, _spd, _fac, _creator, _gun_type){
 				initialise_bullet(bullet_angle, _spd, _fac, id, inst);
 				i++;
 			}
+		}
 			break;
 			
 		case powerups.star_bullets:
-		var _sep = 7, bullet_angle;
+		if(_fac == factions.enemy){
+			var _sep = 7, bullet_angle;
+			
+			var i = 0; repeat(8){
+				bullet_angle = _dir + (i * 45);
+				var inst = instance_create_layer(
+					x+lengthdir_x(_sep,_dir),
+					y+lengthdir_y(_sep,_dir),
+					"Instances", ObjBossBullet
+				);
+				initialise_bullet(bullet_angle, _spd, _fac, id, inst);
+				i++;
+			}
+		} else {
+			var _sep = 7, bullet_angle;
 			
 			var i = 0; repeat(8){
 				bullet_angle = _dir + (i * 45);
@@ -49,6 +78,7 @@ function create_bullet(_dir, _spd, _fac, _creator, _gun_type){
 				initialise_bullet(bullet_angle, _spd, _fac, id, inst);
 				i++;
 			}
+		}
 			break;
 			
 		case powerups.laser_bullets:
