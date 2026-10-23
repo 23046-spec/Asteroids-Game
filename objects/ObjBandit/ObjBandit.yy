@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"ObjUfo",
+  "%Name":"ObjBandit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjUfo",
+  "name":"ObjBandit",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemy",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprUfo",
-    "path":"sprites/SprUfo/SprUfo.yy",
+    "name":"SprBandit",
+    "path":"sprites/SprBandit/SprBandit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

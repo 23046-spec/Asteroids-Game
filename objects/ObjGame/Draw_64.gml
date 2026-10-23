@@ -19,9 +19,10 @@ switch(room){
 			room_width/2, 200,
 			@"Score 1,000 Points to WIN!
 
-UP: Move
-LEFT/RIGHT: Change Direction
+UP or W: Move
+LEFT/RIGHT or A/D: Change Direction
 Space: Shoot
+Try Here to Test
 
 >> PRESS SHIFT TO START <<
 "

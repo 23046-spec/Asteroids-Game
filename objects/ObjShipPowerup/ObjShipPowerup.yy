@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprShip",
-    "path":"sprites/SprShip/SprShip.yy",
+    "name":"SprShip_1",
+    "path":"sprites/SprShip_1/SprShip_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

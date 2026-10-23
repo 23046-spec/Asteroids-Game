@@ -13,17 +13,17 @@ if(room == RmGame){
 	spawn_off_camera(ObjAsteroid, 40);
 	
 	spawn_off_camera(ObjAlien, 6);
-	spawn_off_camera(ObjUfo, 3);
+	spawn_off_camera(ObjBandit, 3);
 	spawn_off_camera(ObjBrute, 2);
 	
 	alarm[0] = 60;
 }
 if(room == RmBoss){
 	audio_play_sound(AsteroidsMusic, 2, true);
-	spawn_off_camera(ObjAsteroid, 15);
+	spawn_off_camera(ObjAsteroid, 25);
 	
-	spawn_off_camera(ObjAlien, 3);
-	spawn_off_camera(ObjUfo, 2);
+	spawn_off_camera(ObjAlien, 4);
+	spawn_off_camera(ObjBandit, 2);
 	spawn_off_camera(ObjBrute, 1);
 	
 	alarm[0] = 60;

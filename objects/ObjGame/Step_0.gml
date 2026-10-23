@@ -14,7 +14,7 @@ if(keyboard_check_pressed(vk_shift)){
 
 
 if(room == RmGame){
-	if(score >= 100){
+	if(score >= 1000){
 		room_goto(RmWin);
 		if(audio_is_playing(AsteroidsMusic)){
 		audio_stop_sound(AsteroidsMusic);
@@ -59,7 +59,7 @@ if(room == RmBoss){
 				with(ObjBrute){
 					instance_destroy();
 				}
-				with(ObjUfo){
+				with(ObjBandit){
 					instance_destroy();
 				}
 				global.cameraShake = 50;

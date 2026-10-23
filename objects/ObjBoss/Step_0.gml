@@ -1,8 +1,10 @@
 event_inherited();
 
 // Automatically calculates the correct frame (0-4) as HP drops
-image_index = clamp(4 - floor((HP - 1) / 1), 0, 4);
-
+image_index = clamp(4 - floor((HP - 1) / 30), 0, 4);
+if(HP - 1){
+	image_blend = c_orange * 2
+}
 //if player exists
 if(!instance_exists(ObjShip)) exit;
 
